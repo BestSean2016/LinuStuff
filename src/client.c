@@ -8,7 +8,7 @@
 #include <unistd.h>
 
 #include "readdisk.h"
-#include "serialno.h"
+#include "license.h"
 
 
 static int _do_you_want_to_license(const char* filepath) {

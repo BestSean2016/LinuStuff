@@ -270,7 +270,7 @@ int get_first_hdsn(char* szSN, int nLimit)
     char szDevPath[256];
 
     if (get_first_hd(szDevPath, sizeof(szDevPath)))
-        return (-1);
+        return first_if_mac(szSN, nLimit);
 
     if (_get_hd_sn_1(szDevPath, szSN, nLimit))
         if (_get_hd_sn_2(szDevPath, szSN, nLimit))

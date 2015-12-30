@@ -40,6 +40,8 @@ extern int decode_hd_sn_base64(const char* szEnText);
 extern int generate_license(const char* filepath, const char* szHdsn, const char* szDate);
 extern int get_license(const char* filepath, char* szHdsn, size_t hdsn_len, char* szDate, size_t date_len);
 
+extern int check_license(const char* filepath);
+
 #ifdef __cplusplus
 }
 #endif

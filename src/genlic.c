@@ -8,7 +8,7 @@
 #include <unistd.h>
 
 #include "readdisk.h"
-#include "serialno.h"
+#include "license.h"
 
 
 static int get_input(char* txt,  size_t maxlen) {
